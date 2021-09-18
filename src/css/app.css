@@ -1,0 +1,425 @@
+html,body{
+    margin:0;
+    padding:0;
+ }
+
+.first_page_body{
+position: relative;
+top:0;
+left: 0;
+width: 100%;
+height: 920px;
+background: #000000;
+overflow: hidden;
+margin-top:-10px;
+
+}
+
+
+.betta_img{
+
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 200px;
+    top: 70px;
+
+}
+
+.greeting{
+position: absolute;
+width: 777px;
+height: 380px;
+left: 50px;
+top: 255px;
+font-family: 'barcode';
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins.ttf');
+}
+.github{
+    
+position: absolute;
+width: 267px;
+height: 45px;
+left: 55px;
+top: 88px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+text-decoration: underline;
+}
+
+.join{
+    position: absolute;
+width: 268px;
+height: 54px;
+left: 212px;
+top: 83px;
+text-decoration: underline;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.know_more_back{
+    position: absolute;
+    width: 128px;
+    height: 50px;
+    left: 370px;
+    top: 610px;
+    background: #CB5A4A;
+
+}
+.know_more{
+    position: absolute;
+width: 278px;
+height: 91px;
+left: 384px;
+top: 589px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+@font-face{
+    font-family: 'barcode';
+    src: url('../fonts/BarcodeFont.ttf');
+}
+.first_footer{
+    position: absolute;
+width: 100%;
+height: 89px;
+left: 0px;
+top: 830px;
+background: #242424;
+}
+
+.second_page{
+    position: relative;
+width: 100%;
+height: 920px;
+background: #000000;
+overflow: hidden;
+}
+
+
+.about_me{
+    
+position: absolute;
+width: 260px;
+height: 67px;
+left: 112px;
+top: 55px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+@font-face{
+    font-family: 'Rufina';
+    src: url('../fonts/Rufina.ttf');
+}
+.about_me_container{
+    position: absolute;
+width: 801px;
+height: 246px;
+left: 5px;
+top: 137px;
+background: rgba(196, 196, 196, 0.2);
+font-family: 'Rufina';
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.technologies{
+    position: absolute;
+width: 289px;
+height: 62px;
+left: 112px;
+top: 420px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.technologies_container{
+    position: absolute;
+width: 800px;
+height: 241px;
+left: 10px;
+top: 510px;
+background: rgba(196, 196, 196, 0.2);
+}
+
+.mern{
+    position: absolute;
+width: 259.89px;
+height: 100px;
+left: 82px;
+top: 63px;
+
+}
+
+.python{
+    position: absolute;
+width: 337.08px;
+height: 100px;
+left: 400px;
+top: 70px;
+}
+
+.second_footer{
+    position: absolute;
+width: 1920px;
+height: 89px;
+left: 0px;
+top: 839px;
+background: #242424;
+}
+.cloud_image{
+    position: absolute;
+width: 461px;
+height: 645px;
+left: 810px;
+top: 105px;
+
+}
+
+@font-face{
+    font-family: 'Trochhi';
+    src: url('../fonts/Trocchi.ttf');
+}
+
+.quote{
+position: absolute;
+width: 352px;
+height: 412px;
+left: 865px;
+top: 205px;
+
+font-family: 'Trochhi';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.join_container{
+position: absolute;
+width: 338px;
+height: 89px;
+left: 1000px;
+top: 0px;
+
+background: rgba(196, 196, 196, 0.2);
+}
+
+.joiner{
+    position: absolute;
+width: 338px;
+height: 86px;
+left:1110px;
+top: 830px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.third_page{
+    overflow: hidden;
+position: relative;
+margin-left: 0px;
+width: 100%;
+height: 920px;
+
+background: #000000;
+}
+
+.book{
+    position: absolute;
+width: 577px;
+height: 991px;
+left: 863px;
+top: 0px;
+}
+
+.third_footer{
+position: absolute;
+width: 1920px;
+height: 89px;
+left: 0px;
+top: 839px;
+background: #242424;
+}
+
+.insta{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 35px;
+top: 20px;
+
+}
+
+.facebook{
+    position: absolute;
+width: 90px;
+height: 47px;
+left: 85px;
+top: 16px;
+
+
+}
+
+.tweeter{
+    position: absolute;
+    width: 75px;
+    height: 62px;
+    left: 173px;
+    top: 10px;
+}
+
+.go_home{
+    position: absolute;
+width: 323px;
+height: 89px;
+left: 940px;
+top: 0px;
+background: #C4C4C4;
+}
+
+.home{
+    position: absolute;
+width: 323px;
+height: 89px;
+left: 1082px;
+top: -4px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000
+
+}
+
+.signupbox{
+    position: absolute;
+width: 548px;
+height: 655px;
+left: 149px;
+top: 94px;
+
+background: #C4C4C4;
+}
+label{
+    font-size: 26px;
+}
+
+input{
+    outline: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    height: 16px;
+    
+}
+form{
+position: absolute;
+left:185px;
+top:250px
+}
+
+.form_name{
+    position: absolute;
+    top: -50px;
+    left: -70px;
+}
+.form_lastname{
+    position: absolute;
+    left: -70px;
+}
+
+.form_email{
+    position: absolute;
+    left: -70px;
+    top:90px
+}
+
+.button_sub{
+    position: absolute;
+top: 180px;
+left: 175px;
+}
